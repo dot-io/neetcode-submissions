@@ -1,0 +1,2 @@
+-- Write your query below
+SELECT DISTINCT name FROM customers LEFT JOIN orders ON customers.id = customer_id WHERE customer_id IS NULL;
